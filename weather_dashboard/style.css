@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+/* Select variable container */
+#select-variable-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#select-variable-container button {
+    margin: 5px;
+    padding: 7px 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#select-variable-container button:hover {
+    background-color: #0056b3;
+}
+/* CSS rules for displaying data */
+#chart-container, #desc-stat-container, #daily-data-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+td {
+    text-align: center;
+}
+/* chart */
+#chart-and-stat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#chart-container {
+    width: 75vw;
+    max-width: 900px;
+}
+#chart-slider-container {
+    display: flex;
+    justify-content: center;
+}
+/* descriptive stats */
+#desc-stat-container td {
+    padding-bottom: 10px;
+}
+#integer-input-container {
+    text-align: center;
+}
+#integer-input {
+    width: 50px;
+    text-align: center;
+}
+/* 1-day hourly data table */
+#daily-data-container {
+    font-size: small;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#daily-data-container table {
+    border-collapse:collapse;
+    max-width: 965px;
+
+}
+#daily-data-container th, #daily-data-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#daily-data-container th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+#date-picker-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#date-picker-container label {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+#date-picker-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#date-picker-container button:hover {
+    background-color: #0056b3;
+}
+#date-picker-container input {
+    margin: 0 2px;
+}
