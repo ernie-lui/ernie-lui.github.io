@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Week 05 - 3rd Party JavaScript Libraries</title>
+</head>
+<body>
+  <div class="clock-container">
+    <div class="clock">
+        <h1 class="digit" id="days">000</h1>
+        <div class="label">Days</div>
+    </div>
+    <div class="clock">
+      <h1 class="digit" id="hours">00</h1>
+      <div class="label">Hours</div>
+    </div>
+    <div class="clock">
+      <h1 class="digit" id="minutes">00</h1>
+      <div class="label">Minutes</div>
+    </div>
+    <div class="clock">
+      <h1 class="digit" id="seconds">00</h1>
+      <div class="label">Seconds</div>
+    </div>
+  </div>
+  <h1>...until 2025!</h1>
 
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js" integrity="sha256-nP25Pzivzy0Har7NZtMr/TODzfGWdlTrwmomYF2vQXM=" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
