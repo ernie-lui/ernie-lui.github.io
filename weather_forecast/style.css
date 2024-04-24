@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#dateTime0 {
+    font-size: smaller;
+}
+
+.forecast-container {
+    display: flex;
+}
+
+.data-container {
+    margin: 30px;
+}
+
+
+
+
+
+
+
